@@ -1,0 +1,41 @@
+.feedback-container {
+    margin: auto;
+    background-color: rgba(175, 206, 226, 0.5);
+    border: 5px solid rgb(98, 143, 228);
+    font-weight: normal;
+    font-style: normal;
+}
+.feedback-container form {
+    display: block;
+    
+}
+.feedback-container form input {
+    margin: 15px;
+    border: 1px solid rgb(98, 143, 228);
+    padding: 0.4rem;
+}
+.feedback-container form input {
+    flex: 1 1 200px;
+}
+
+.feedback-container form input[type="submit"] {
+    border-radius: 3px;
+    background-color: rgba(17, 228, 10, 0.562);
+    color: rgb(42, 68, 117);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+.feedback-container form input[type="email"] {
+    flex: 1 1 250px;
+}
